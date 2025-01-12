@@ -10,18 +10,23 @@ const firestore = getFirestore();
 function ChatMessage(props) {
     const { text, uid, photoURL } = props.message;
 
+    console.log(photoURL);
+
+
+
     const messageClass = uid === auth.currentUser.uid ? 'sent' : 'received';
 
     return (
         <div className={`message ${messageClass}`}>
             <img
-                src={photoURL || '/images/avatar.png'}
+                src={photoURL && photoURL.trim() !== '' ? photoURL : 'https://img.icons8.com/?size=100&id=bzanxGcmX3R8&format=png&color=000000'}
                 alt="User Avatar"
             />
             <p>{text}</p>
         </div>
     );
 }
+
 
 export function ChatRoom() {
     const dummy = useRef();
