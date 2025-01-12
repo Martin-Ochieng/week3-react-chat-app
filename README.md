@@ -64,7 +64,7 @@ Ensure you have the following installed:
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Martin-Ochieng/week3-react-chat-app.git
    cd react-firebase-chat-app
    ```
 
