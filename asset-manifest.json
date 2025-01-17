@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/week3-react-chat-app/static/css/main.67f42cad.css",
-    "main.js": "/week3-react-chat-app/static/js/main.89673007.js",
+    "main.js": "/week3-react-chat-app/static/js/main.eed965b8.js",
     "index.html": "/week3-react-chat-app/index.html",
     "main.67f42cad.css.map": "/week3-react-chat-app/static/css/main.67f42cad.css.map",
-    "main.89673007.js.map": "/week3-react-chat-app/static/js/main.89673007.js.map"
+    "main.eed965b8.js.map": "/week3-react-chat-app/static/js/main.eed965b8.js.map"
   },
   "entrypoints": [
     "static/css/main.67f42cad.css",
-    "static/js/main.89673007.js"
+    "static/js/main.eed965b8.js"
   ]
 }
