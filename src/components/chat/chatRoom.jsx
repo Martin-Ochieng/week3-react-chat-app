@@ -56,9 +56,11 @@ function ChatMessage(props) {
                         <button onClick={handleEdit} className="edit-button">
                             {isEditing ? '💾' : '📝️'}
                         </button>
-                        <button onClick={handleDelete} className="delete-button">
-                            🗑️ {/* Delete icon */}
-                        </button>
+                        {!isEditing && (
+                            <button onClick={handleDelete} className="delete-button">
+                                🗑️ {/* Delete icon */}
+                            </button>
+                        )}
                     </div>
                 )}
             </div>
